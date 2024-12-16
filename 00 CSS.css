@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(181, 197, 210);
+}
+.playwrite-vn-guides-regular {
+  font-family: "Playwrite VN Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  background-color: rgb(69, 97, 125);
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 5px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+}
+.header-bio {
+  float: left;
+  padding: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(158, 204, 204);
+}
+.header-contact {
+  float: right;
+  padding-top: 5px;
+}
+.header-contact p a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.header-contact a:hover {
+  color: bisque;
+  text-decoration: underline;
+}
+.clear-div {
+  clear: both;
+}
+hr {
+  border: 1px solid white;
+  width: 100%;
+  margin: 10px auto;
+}
+/* Personal Section Star */
+
+.content {
+  margin: 5px;
+}
+.left {
+  width: 30%;
+  float: left;
+}
+.right {
+  width: 70%;
+  float: right;
+}
+.common-hr {
+  border: solid rgb(246, 241, 241) 2px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+.edu-template-right {
+  float: right;
+  width: 50%;
+}
+.edu-template-left {
+  float: left;
+  width: 50;
+}
+.right-div {
+  float: right;
+  width: 70%;
+}
+.left-div {
+  width: 30%;
+  float: left;
+}
+.bottom-container {
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  margin-top: -10px;
+}
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.bottom-container p {
+  color: white;
+  margin-top: 10px;
+}
